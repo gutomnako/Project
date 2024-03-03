@@ -1,0 +1,62 @@
+.btn {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 8px;
+    transition: opacity 0.15s;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn:active {
+    opacity: 0.8;
+}
+
+.btn-1 {
+    background-color: white;
+    border-color: rgb(56, 56, 150);
+    border-style: solid;
+    color: rgb(56, 56, 150);
+    border-width: 1px;
+    height: 36px;
+    width: 50px;
+    border-radius: 2px;
+    margin: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+    
+}
+
+.btn-1:active {
+    opacity: 0.8;
+}
+
+.btn-1:hover {
+    background-color: rgb(56, 56, 150);
+    color: white;
+}
+
+.btn-2 {
+    background-color: rgb(19, 112, 193);
+    color: white;
+    border: none;
+    border-style: solid;
+    border-radius: 15px;
+    height: 30px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.btn-2:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
